@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#" id="logout-btn" style="display: none;">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section id="course-detail">
+            <h2>Course Title</h2>
+            <p id="course-description"></p>
+            <h3>Lessons</h3>
+            <ul id="lessons-list">
+                <!-- Lessons will be loaded here by JavaScript -->
+            </ul>
+            <button id="mark-complete-btn" style="display: none;">Mark as Completed</button>
+            <p id="completion-message" class="message"></p>
+        </section>
+    </main>
+    <script src="course.js"></script>
+</body>
+</html>
