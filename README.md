@@ -44,7 +44,7 @@ Before you begin, ensure you have the following installed:
 
     If you're using Git, you would typically clone the repository. If you've received the project files directly, skip this step.
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/eddygreat/dizemp-learning-platform
     cd E_Learning_Platform # Navigate into your project folder
     ```
 
